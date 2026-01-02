@@ -1,13 +1,12 @@
-
 import React, { useState } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, MessageCircle, ChevronRight, User, ShieldCheck } from 'lucide-react';
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Professionals from './pages/Professionals';
-import Agenda from './pages/Agenda';
-import Contact from './pages/Contact';
-import ChatAssistant from './components/ChatAssistant';
+import Home from './Home';
+import Services from './Services';
+import Professionals from './Professionals';
+import Agenda from '.Agenda';
+import Contact from './Contact';
+import ChatAssistant from './ChatAssistant';
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
