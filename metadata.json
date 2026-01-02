@@ -1,0 +1,8 @@
+{
+  "name": "Agency Amatrix - Clean Luxury Services",
+  "description": "A high-end multi-page platform for professional services featuring AI-driven assistance, professional registration with AI bio generation, and a secure booking funnel.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
